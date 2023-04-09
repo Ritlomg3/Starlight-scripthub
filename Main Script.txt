@@ -1,5 +1,5 @@
 if game.Id == 1962086868 then
- loadstring(game:HttpGet("pastebin.com/raw/bW3hs2Ua"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Tower%20of%20Hell.lua"))()
  print("Game Supported")
 elseif game.Id == 11166344460 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Easy%20Stud%20Jump%20Obby.lua"))()
