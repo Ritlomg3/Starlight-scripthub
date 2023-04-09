@@ -1,0 +1,7 @@
+if game.Id == 1962086868 then
+ loadstring(game:HttpGet("pastebin.com/raw/bW3hs2Ua"))()
+ print("Game Supported")
+elseif game.Id == 11166344460 then
+ loadstring(game:HttpGet("pastebin.com/raw/KK23Du04"))()
+ print("Game Supported")
+end
