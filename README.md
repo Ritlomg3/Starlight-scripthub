@@ -13,3 +13,4 @@ April 9
 <li> Tower of hell </li>
 <li> Easy Stud Jump Obby </li>
 
+** Scripts from the Games Folder is Protected from skiddies **
