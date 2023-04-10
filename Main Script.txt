@@ -12,4 +12,6 @@ if game.PlaceId == 1962086868 then
 elseif game.PlaceId == 11166344460 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Easy%20Stud%20Jump%20Obby.lua"))()
  print("Game Supported")
+elseif game.PlaceId == 189707 then
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Natural%20Disaster%20Survival.lua"))()
 end
