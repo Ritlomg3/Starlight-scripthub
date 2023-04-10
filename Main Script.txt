@@ -1,9 +1,8 @@
-wait(1)
 game.StarterGui:SetCore("SendNotification", {
 Title = "Loading.."; --
 Text = "Please wait.."; 
 Icon = "rbxassetid://6646175695";
-Duration = 10; 
+Duration = 5; 
 })
 
 
