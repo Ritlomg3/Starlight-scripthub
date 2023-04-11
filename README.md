@@ -22,7 +22,7 @@ UPDATE (April 10)
 
 Credits from the person who made the Venus UI Library.
 
-##UPDATES:##
+## UPDATES: ##
 
 April 10
 <li> Made a Natural Disaster Survival script </li>
