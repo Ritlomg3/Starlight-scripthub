@@ -9,16 +9,15 @@
 April 9
 
 <li> <a href="https://www.roblox.com/games/1962086868/Tower-of-Hell" target="_blank">Tower Of Hell</a> </li>
-<li> Easy Stud Jump Obby </li>
+<li> <a href="https://www.roblox.com/games/11166344460/UPD-Easy-Stud-Jumps-Obby" target="_blank">Easy stud jump obby</a> </li>
 
 UPDATE (April 10)
 
-<li> Natural Disaster Survival </li>
+<li> <a href="https://www.roblox.com/games/189707/Natural-Disaster-Survival" target="_blank"> Natural Disaster Survival</a> </li>
 
 
 
 
-**Scripts from the Games Folder is Protected from skiddies**
 
 Credits from the person who made the Venus UI Library.
 
