@@ -27,3 +27,5 @@ Credits from the person who made the Venus UI Library.
 April 10
 <li> Made a Natural Disaster Survival script </li>
 <li> Fixed Tower of hell script - Teleport to end, teleports you to the Neon door instead in the middle of the red path. </li>
+<li> Added more buttons, toggles, stuffs at Natural Disaster Survival Script </li>
+<li> Added instant win, autowin at Candy Area at ESJO Script.
