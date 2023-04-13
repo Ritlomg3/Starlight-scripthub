@@ -1,14 +1,10 @@
 
-function notify(title, text)
-game.StarterGui:SetCore("SendNotification", {
-Title = title;
-Text = text; 
-Icon = "rbxassetid://6646175695";
-Duration = 3; 
-})
-end
+ game.StarterGui:SetCore("SendNotification", {
+ Title = Loading..
+ Text = Please Wait
+ Duration = 3; 
+ })
 
-notify(Loading.., Please Wait..)
 
 
 
@@ -16,7 +12,11 @@ if game.PlaceId == 1962086868 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Tower%20of%20Hell.lua"))()
  print("Game Supported")
 else
- notify(Game Not Supported, The current game you're playing on is not supported by the scripthub.)
+ game.StarterGui:SetCore("SendNotification", {
+ Title = Game Not Supported!
+ Text = The current game you're on is not supported. Please execute this script in a Supported game.
+ Duration = 3; 
+ })
 end
 
 
@@ -24,11 +24,19 @@ if game.PlaceId == 11166344460 then
  loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Easy%20Stud%20Jump%20Obby.lua"))()
  print("Game Supported")
 else
- notify(Game Not Supported, The current game you're playing on is not supported by the scripthub.)
+ game.StarterGui:SetCore("SendNotification", {
+ Title = Game Not Supported!
+ Text = The current game you're on is not supported. Please execute this script in a Supported game.
+ Duration = 3; 
+ })
 end
 
 if game.PlaceId == 189707 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Natural%20Disaster%20Survival.lua"))()
 else
- notify(Game Not Supported, The current game you're playing on is not supported by the scripthub.)
+ game.StarterGui:SetCore("SendNotification", {
+ Title = Game Not Supported!
+ Text = The current game you're on is not supported. Please execute this script in a Supported game.
+ Duration = 3; 
+ })
 end
