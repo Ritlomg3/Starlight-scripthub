@@ -1,8 +1,8 @@
 
- game.StarterGui:SetCore("SendNotification", {
- Title = Loading..
- Text = Please Wait
- Duration = 3; 
+game.StarterGui:SetCore("SendNotification", {
+Title = "Loading.."
+Text = "Please Wait"
+Duration = 3; 
  })
 
 
