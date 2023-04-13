@@ -1,11 +1,4 @@
 
-game.StarterGui:SetCore("SendNotification", {
-Title = "Loading.."
-Text = "Please Wait"
-Duration = 3; 
- })
-
-
 
 
 if game.PlaceId == 1962086868 then
