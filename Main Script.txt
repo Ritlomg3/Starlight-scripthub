@@ -42,7 +42,7 @@ else
 end
 
 if game.PlaceId == 893973440 then
-https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Flee%20The%20Facility.lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ritlomg3/Starlight-scripthub/main/Games/Flee%20The%20Facility.lua"))()
 else
  game.StarterGui:SetCore("SendNotification", {
  Title = "Game Not Supported!"
