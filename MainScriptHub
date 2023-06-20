@@ -1,0 +1,193 @@
+
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local Background = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Text = Instance.new("TextLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Text_2 = Instance.new("TextLabel")
+local Scroll = Instance.new("ScrollingFrame")
+local UniversalUnfairhub = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Image = Instance.new("ImageLabel")
+local UICorner_3 = Instance.new("UICorner")
+local Title = Instance.new("TextLabel")
+local Description = Instance.new("TextLabel")
+local Run = Instance.new("ImageButton")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Search = Instance.new("TextBox")
+local UICorner_4 = Instance.new("UICorner")
+local Hamburger = Instance.new("ImageButton")
+
+-- Properties
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ScreenGui.ResetOnSpawn = false
+
+Background.Name = "Background"
+Background.Parent = ScreenGui
+Background.BackgroundColor3 = Color3.new(0.0705882, 0.0705882, 0.0705882)
+Background.ClipsDescendants = true
+Background.Position = UDim2.new(0.151885837, 0, 0.118326128, 0)
+Background.Size = UDim2.new(0, 513, 0, 302)
+
+UICorner.Parent = Background
+UICorner.CornerRadius = UDim.new(0, 4)
+
+Text.Name = "Text"
+Text.Parent = Background
+Text.BackgroundColor3 = Color3.new(1, 1, 1)
+Text.BackgroundTransparency = 1
+Text.Position = UDim2.new(0.0799220279, 0, 0.0198675506, 0)
+Text.Size = UDim2.new(0, 98, 0, 23)
+Text.ZIndex = 8
+Text.Font = Enum.Font.GothamBold
+Text.Text = "Script Hub"
+Text.TextColor3 = Color3.new(1, 1, 1)
+Text.TextSize = 14
+
+ImageLabel.Parent = Background
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BackgroundTransparency = 1
+ImageLabel.Position = UDim2.new(-0.0494125485, 0, -0.056501627, 0)
+ImageLabel.Size = UDim2.new(0, 563, 0, 335)
+ImageLabel.Image = "rbxassetid://5028857084"
+
+Text_2.Name = "Text"
+Text_2.Parent = Background
+Text_2.BackgroundColor3 = Color3.new(1, 1, 1)
+Text_2.BackgroundTransparency = 1
+Text_2.Position = UDim2.new(0.226120859, 0, 0.0463576168, 0)
+Text_2.Size = UDim2.new(0, 68, 0, 7)
+Text_2.ZIndex = 8
+Text_2.Font = Enum.Font.Unknown
+Text_2.Text = "• beta"
+Text_2.TextColor3 = Color3.new(1, 1, 1)
+Text_2.TextSize = 14
+
+Scroll.Name = "Scroll"
+Scroll.Parent = Background
+Scroll.Active = true
+Scroll.BackgroundColor3 = Color3.new(0.027451, 0, 0)
+Scroll.BackgroundTransparency = 0.800000011920929
+Scroll.BorderSizePixel = 0
+Scroll.Position = UDim2.new(0.0409356728, 0, 0.218543053, 0)
+Scroll.Size = UDim2.new(0, 469, 0, 223)
+Scroll.ZIndex = 3
+Scroll.CanvasSize = UDim2.new(0, 0, 4, 0)
+Scroll.ScrollBarThickness = 3
+
+UniversalUnfairhub.Name = "UniversalUnfairhub"
+UniversalUnfairhub.Parent = Scroll
+UniversalUnfairhub.BackgroundColor3 = Color3.new(0.0431373, 0.0431373, 0.0431373)
+UniversalUnfairhub.BackgroundTransparency = 0.20000000298023224
+UniversalUnfairhub.ClipsDescendants = true
+UniversalUnfairhub.Position = UDim2.new(0, 0, 0.0281456951, 0)
+UniversalUnfairhub.Size = UDim2.new(0, 142, 0, 115)
+UniversalUnfairhub.ZIndex = 4
+
+UICorner_2.Parent = UniversalUnfairhub
+
+Image.Name = "Image"
+Image.Parent = UniversalUnfairhub
+Image.BackgroundColor3 = Color3.new(1, 1, 1)
+Image.ClipsDescendants = true
+Image.Size = UDim2.new(0, 145, 0, 75)
+Image.Image = "http://www.roblox.com/asset/?id=5902417546"
+Image.ScaleType = Enum.ScaleType.Crop
+
+UICorner_3.Parent = Image
+
+Title.Name = "Title"
+Title.Parent = UniversalUnfairhub
+Title.BackgroundColor3 = Color3.new(1, 1, 1)
+Title.BackgroundTransparency = 1
+Title.Position = UDim2.new(0.0482758619, 0, 0.541935503, 0)
+Title.Size = UDim2.new(0, 71, 0, 15)
+Title.ZIndex = 4
+Title.Font = Enum.Font.Unknown
+Title.Text = "Unfair hub"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextSize = 14
+
+Description.Name = "Description"
+Description.Parent = UniversalUnfairhub
+Description.BackgroundColor3 = Color3.new(1, 1, 1)
+Description.BackgroundTransparency = 1
+Description.Position = UDim2.new(0.0551724136, 0, 0.658064544, 0)
+Description.Size = UDim2.new(0, 128, 0, 36)
+Description.ZIndex = 4
+Description.Font = Enum.Font.Code
+Description.Text = "universal script hub w/ more than 55 scripts."
+Description.TextColor3 = Color3.new(1, 1, 1)
+Description.TextScaled = true
+Description.TextSize = 14
+Description.TextWrapped = true
+Description.TextXAlignment = Enum.TextXAlignment.Left
+
+Run.Name = "Run"
+Run.Parent = UniversalUnfairhub
+Run.BackgroundColor3 = Color3.new(1, 1, 1)
+Run.BackgroundTransparency = 1
+Run.Position = UDim2.new(0.786206961, 0, 0.522580624, 0)
+Run.Size = UDim2.new(0, 21, 0, 21)
+Run.ZIndex = 5
+Run.Image = "http://www.roblox.com/asset/?id=6026663699"
+
+UIGridLayout.Parent = Scroll
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellSize = UDim2.new(0, 145, 0, 155)
+
+Search.Name = "Search"
+Search.Parent = Background
+Search.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Search.BackgroundTransparency = 1
+Search.Position = UDim2.new(0.643274844, 0, 0.0264900662, 0)
+Search.Size = UDim2.new(0, 160, 0, 24)
+Search.ZIndex = 8
+Search.ClearTextOnFocus = false
+Search.Font = Enum.Font.Unknown
+Search.PlaceholderColor3 = Color3.new(0.345098, 0.345098, 0.345098)
+Search.PlaceholderText = "searching coming soon."
+Search.Text = "gfgfd"
+Search.TextColor3 = Color3.new(1, 1, 1)
+Search.TextSize = 12
+Search.TextWrapped = true
+
+UICorner_4.Parent = Search
+
+Hamburger.Name = "Hamburger"
+Hamburger.Parent = Background
+Hamburger.BackgroundColor3 = Color3.new(1, 1, 1)
+Hamburger.BackgroundTransparency = 1
+Hamburger.Position = UDim2.new(0.0272904485, 0, 0.00993377529, 0)
+Hamburger.Size = UDim2.new(0, 27, 0, 29)
+Hamburger.ZIndex = 8
+Hamburger.Image = "http://www.roblox.com/asset/?id=6031079151"
+
+-- Scripts
+
+local function JTTPJX_fake_script() -- Background.drag 
+	local script = Instance.new('LocalScript', Background)
+
+	local background = script.Parent
+	
+	background.Active = true
+	background.Draggable = true
+end
+coroutine.wrap(JTTPJX_fake_script)()
+local function YFLDJDL_fake_script() -- Run.LocalScript 
+	local script = Instance.new('LocalScript', Run)
+
+	local run = script.Parent
+	
+	run.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+	end)
+	
+end
+coroutine.wrap(YFLDJDL_fake_script)()
